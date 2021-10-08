@@ -51,18 +51,18 @@ section {
   padding: 0;
 }
 
-.home .nav-brand {
+.home .navbar-brand {
   position: absolute;
   width: 100%;
-  max-width: 100px;
+  max-width: 130px;
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
   transition: opacity 650ms;
 }
 
-.home .nav-brand:hover {
-  opacity: .8;
+.home .navbar-brand:hover {
+  opacity: 0.8;
 }
 
 .home .hamburguer-menu {
@@ -209,7 +209,7 @@ hr {
     display: none;
   }
 
-  .home .nav-brand {
+  .home .navbar-brand {
     position: initial;
     transform: initial;
   }
