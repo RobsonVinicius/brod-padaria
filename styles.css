@@ -238,6 +238,18 @@ hr {
   color: #c69963
 }
 
+.chef .card-body h2 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+}
+
+.chef .card-body h6 {
+  font-size: 16px;
+  color: #c69963
+}
+
 
 @media (min-width: 576px) {
   .navbar-brand {
