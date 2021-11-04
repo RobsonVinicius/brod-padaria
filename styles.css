@@ -224,6 +224,20 @@ hr {
   font-weight: 300;
 }
 
+.chef .section-heading h4 {
+  text-transform: uppercase;
+  color: #101D2C;
+  line-height: 0;
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.chef .section-heading h2 {
+  font-family: 'Niconne', cursive;
+  color: #c69963
+}
+
 
 @media (min-width: 576px) {
   .navbar-brand {
