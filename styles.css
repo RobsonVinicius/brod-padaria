@@ -250,6 +250,10 @@ hr {
   color: #c69963
 }
 
+footer {
+  background-color: #101d2c;
+  color: #c69963
+}
 
 @media (min-width: 576px) {
   .navbar-brand {
