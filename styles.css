@@ -182,10 +182,46 @@ hr {
   border-top: 1px solid rgba(255, 255, 255, .5)
 }
 
-
-.tasty .section-heading h2 {
+.menu-tasty .section-heading h2 {
   font-family: "Niconne", cursive;
   color: #c69963
+}
+
+.menu-tasty .point-right, .point-left {
+  position: relative;
+  background: #fff;
+  display: flex
+}
+
+.menu-tasty .point-right::before, .point-left::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: inherit;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: 1;
+}
+
+.menu-tasty .menu-item-desc {
+  padding: 50px 10px;
+  color: #212529;
+  margin: auto
+}
+
+.menu-tasty .menu-item-desc h6 {
+  color: #c69963;
+  font-size: 20px;  
+}
+
+.menu-tasty .menu-item-desc h2 {
+  color: #101d2c;  
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
 }
 
 
@@ -197,6 +233,15 @@ hr {
   .hamburguer-menu {
     top: 35px;
     right: 25px;
+  }
+
+  .menu-tasty .point-right::before, 
+  .menu-tasty .point-left::before {
+    display: none;
+  }
+
+  .menu-tasty .menu-item-desc {
+    padding: 50px 20px;
   }
 }
 
@@ -261,5 +306,32 @@ hr {
 
   .nav-link:hover::before {
     transform: scaleX(1);
+  }
+}
+
+@media (min-width: 1200px) {
+  .menu-tasty .point-right::before, 
+  .menu-tasty .point-left::before {
+    display: block;
+    top: 50%;
+    left: initial;
+    transform: translate(0, -50%) rotate(45deg)
+  }
+
+  .menu-tasty .point-right::before {
+    left: -12px;
+  }
+
+  .menu-tasty .point-left::before {
+    right: -12px
+  }
+
+  .menu-tasty .menu-item-desc p {
+    display: none;
+  }
+
+  .menu-tasty .menu-item-desc .btn {
+    color: #fff !important;
+    background-color: #c69963
   }
 }
