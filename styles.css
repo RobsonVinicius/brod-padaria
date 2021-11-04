@@ -39,7 +39,7 @@ section {
 .home {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
+  background: linear-gradient(#000c1aef, #010f20e7),
               url("images/header-bg.jpg") center no-repeat;
   background-size: cover;
   position: relative;
@@ -54,7 +54,7 @@ section {
 .home .navbar-brand {
   position: absolute;
   width: 100%;
-  max-width: 130px;
+  max-width: 135px;
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
@@ -180,6 +180,12 @@ section {
 
 hr {
   border-top: 1px solid rgba(255, 255, 255, .5)
+}
+
+
+.tasty .section-heading h2 {
+  font-family: "Niconne", cursive;
+  color: #c69963
 }
 
 
