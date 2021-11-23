@@ -19,7 +19,7 @@ https://robsonvinicius.github.io/brod-padaria/
 
 Assets | Description | Site
 ------------ | ------------- | ------------ 
-Bootstrap | O Bootstrap é uma ferramenta gratuita para desenvolvimento HTML, CSS e JS | https://getbootstrap.com/
+Bootstrap | Ferramenta para desenvolvimento HTML, CSS e JS | https://getbootstrap.com/
 Font Awesome | Simply Delightful Icon System |  https://fontawesome.com/
 AOS | Animate On Scroll Library | https://michalsnik.github.io/aos/
 jQuery| Biblioteca de funções JavaScript | https://jquery.com/
