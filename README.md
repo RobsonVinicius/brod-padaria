@@ -4,7 +4,7 @@ Site criado utilizando HTML, CSS, JavaScript. Teve como objetivo exercitar os co
 
 <br>
 
-## Light Mode Preview
+## Preview
 
 ![Preview Project Light Mode](img/.jpg)
 
