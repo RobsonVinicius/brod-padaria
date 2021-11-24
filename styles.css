@@ -37,18 +37,18 @@ section {
 }
 
 .home {
-  width: 100%;
+  width: 100%;  
   height: 100vh;
-  background: linear-gradient(#000c1aef, #010f20e7),
-              url("images/header-bg.jpg") center no-repeat;
+  background: linear-gradient(#000102ef, #0c0b0be7),
+              url("images/breads.jpg") center no-repeat;
   background-size: cover;
-  position: relative;
+  position: relative;    
 }
 
 .home > .container {
   position: relative;
   height: 100%;
-  padding: 0;
+  padding: 0;  
 }
 
 .home .navbar-brand {
@@ -158,7 +158,8 @@ section {
 }
 
 .info {
-  background-color: #101D2C;  
+  background-color: #000;  
+  overflow-x: hidden;
 }
 
 .info .shop-info i {
@@ -251,7 +252,7 @@ hr {
 }
 
 footer {
-  background-color: #101d2c;
+  background-color: #000;
   color: #c69963
 }
 
