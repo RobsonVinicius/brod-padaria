@@ -6,7 +6,7 @@ Site criado utilizando HTML, CSS, JavaScript. Teve como objetivo exercitar os co
 
 ## Preview
 
-![Preview Project Light Mode](images/thumbnailt.png)
+![Preview Project Light Mode](images/thumbnail.png)
 
 <br>
 
