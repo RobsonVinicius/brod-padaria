@@ -1,4 +1,4 @@
-﻿# Brød Padaria
+﻿# Brod Padaria
 
 Site criado utilizando HTML, CSS, JavaScript. Teve como objetivo exercitar os conhecimentos.
 
