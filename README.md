@@ -8,7 +8,7 @@ Site criado utilizando HTML, CSS, JavaScript. Teve como objetivo exercitar os co
 
 <br>
 
-![Preview Project Light Mode](images/thumbnail.png)
+![Preview Project Light Mode](images/thumbnail-black.png)
 
 <br>
 
